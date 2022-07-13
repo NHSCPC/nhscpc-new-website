@@ -1,23 +1,22 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import NavBar from '../components/NavBar'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-	<div>
+	<div className="inline">
 		<Head>
-			<title>Forixaim</title>
+			<title>Newport Programming Club</title>
 			<meta name="description" content="There's no donate button, so get lost."/>
 			<link rel="icon" href="favicon.ico"/>
 		</Head>
 		<header>
 			<NavBar/>
 		</header>
-		<main className={styles.main}>
-			<h1 className="flex text-5xl font-bold">
+		<main className="flex items-center justify-center relative m-auto">
+			<h1 className="flex text-5xl font-bold text-center mt-4">
 				Newport Programming Club
 			</h1>
 		</main>

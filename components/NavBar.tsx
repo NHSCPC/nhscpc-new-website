@@ -4,7 +4,7 @@ import navStyles from '../styles/NavBar.module.css'
 
 const NavBar = () => {
 	return (
-		<nav className="bg-gray-700 block m-0 p-0 overflow-hidden px-5 border-b-4 border-black">
+		<nav className="bg-gray-700 block m-0 p-0 overflow-hidden px-5 border-b-1 border-black w-screen shadow-md">
 			<div>
 				<Link href="/"><a className={navStyles.navButton}>Home</a></Link>
 				<Link href="projects"><a className={navStyles.navButton}>Projects</a></Link>
