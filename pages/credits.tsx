@@ -4,23 +4,28 @@ import Image from 'next/image'
 import NavBar from '../components/NavBar'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Credits: NextPage = () => {
   return (
 	<div className="inline">
 		<Head>
 			<title>Newport High School Programming Club</title>
-			<meta name="description" content="Welcome to Newport Programming Club."/>
+			<meta name="description" content="There's no donate button, so get lost."/>
 			<link rel="icon" href="favicon.ico"/>
 		</Head>
 		<header>
 			<NavBar/>
 		</header>
 		<main className="inline">
-			<div className="flex bg-red-800 mx-0 mb-4 w-screen items-center justify-center h-96 border-b-black shadow-xl">
+			<div className="flex bg-red-800 mx-0 mb-4 w-screen items-center justify-center border-b-black shadow-xl h-32">
 				<h1 className="flex text-6xl font-bold text-center mt-4 text-yellow-500">
-					Newport High School Programming Club
+					History
 				</h1>
 			</div>
+            <div>
+                <p>
+                    History goes here i guess...
+                </p>
+            </div>
 			
 		</main>
 			
@@ -31,4 +36,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Credits

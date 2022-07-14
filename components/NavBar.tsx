@@ -4,13 +4,13 @@ import navStyles from '../styles/NavBar.module.css'
 
 const NavBar = () => {
 	return (
-		<nav className="bg-gray-700 block m-0 p-0 overflow-hidden px-5 border-b-1 border-black w-screen shadow-md">
+		<nav className="bg-gray-700 block m-0 p-0 overflow-hidden px-5 border-black w-screen shadow-md">
 			<div>
 				<Link href="/"><a className={navStyles.navButton}>Home</a></Link>
-				<Link href="projects"><a className={navStyles.navButton}>Projects</a></Link>
-				<Link href="contact"><a className={navStyles.navButton}>Contact</a></Link>
-				<Link href="donate"><a className={navStyles.navButton}>Donate</a></Link>
-				<Link href="about"><a className={navStyles.navButton}>About</a></Link>
+				<Link href="schedule"><a className={navStyles.navButton}>Schedule</a></Link>
+				<Link href="history"><a className={navStyles.navButton}>History</a></Link>
+				<Link href="team"><a className={navStyles.navButton}>Team</a></Link>
+				<Link href="credits"><a className={navStyles.navButton}>Credits</a></Link>
 			</div>
 		</nav>
 	)

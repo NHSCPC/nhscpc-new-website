@@ -1,4 +1,4 @@
 .navButton
 {
-    @apply p-2 m-1 float-left text-base text-white
+    @apply p-2 mx-1 float-left text-base border-b-gray-700 border-b-4 text-white hover:border-b-4 hover:border-b-yellow-300 hover:bg-gray-500 hover:shadow-inner shadow-green-300 transition-all;
 }
