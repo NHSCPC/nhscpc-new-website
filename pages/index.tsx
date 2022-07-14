@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 					Newport High School Programming Club
 				</h1>
 			</div>
-			
+			<p className="text-2xl font-semibold text-center my-8">Welcome to Newport High School Programming Club! Here we help up and coming students who are interested in programming explore new things and hone their skills via programming competitions.</p>
 		</main>
 			
 		<footer className={styles.footer}>
