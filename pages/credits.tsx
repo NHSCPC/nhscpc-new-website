@@ -18,12 +18,15 @@ const Credits: NextPage = () => {
 		<main className="inline">
 			<div className="flex bg-red-800 mx-0 mb-4 w-screen items-center justify-center border-b-black shadow-xl h-32">
 				<h1 className="flex text-6xl font-bold text-center mt-4 text-yellow-500">
-					History
+					Credits
 				</h1>
 			</div>
             <div>
                 <p>
-                    History goes here i guess...
+                    Next.js
+                    React
+                    Tailwind CSS 
+                    
                 </p>
             </div>
 			
