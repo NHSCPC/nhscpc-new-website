@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
+import creditsData from "../src/Credits";
 
 const Credits: NextPage = () => {
   return (
@@ -19,13 +20,19 @@ const Credits: NextPage = () => {
 					Credits
 				</h1>
 			</div>
-            <div>
-                <p>
-                    Next.js
-                    React
-                    Tailwind CSS 
-                    
-                </p>
+            <div className="flex items-center justify-center">
+				<ul className="text-2xl font-semibold">
+					{creditsData.map((content, index) => {
+						return (
+							<li key={content.key}>
+								<div>
+									<h1 className="text-center font-bold text-4xl">{content.name}</h1>
+									<p className="text-center font-semibold text-2xl">{content.description}</p>
+								</div>
+							</li>
+						)
+					})}
+				</ul>
             </div>
 			
 		</main>
