@@ -25,7 +25,7 @@ const Schedule: NextPage = () => {
 						<div key={content.key}>
 							<article>
 								<h1 className="text-center font-bold text-4xl">
-									{content.month} {content.day}, {content.year}
+									{content.month} {content.day}<sup>{content.ss}</sup>, {content.year}
 								</h1>
 								<p className="text-center font-semibold text-2xl">
 									{content.summary}
