@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@astrajs/rest": "^0.3.4",
     "@react-three/fiber": "^8.0.27",
     "next": "12.1.6",
     "react": "18.2.0",
