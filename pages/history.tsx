@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
+import historyData from "../src/History";
 const History: NextPage = () => {
   return (
 	<div className="inline">
@@ -18,18 +19,20 @@ const History: NextPage = () => {
 					History
 				</h1>
 			</div>
-            <article className="my-16">
-                <h1 className="mx-8 text-center font-semibold text-3xl">Website History</h1>
-            <p className="mx-8 text-2xl indent-16">
-                The website was developed by Matthew &quot;Forixaim&quot; Chai, who wanted to dabble a little into web development. As it turned out, he was interested in Next.js so he decided to develop his personal website from it. After his personal website was created, he decided to revamp his club&apos;s website and this website was the final product.
-            </p>
-            </article>
-			<article>
-                <h1 className="mx-8 text-center font-semibold text-3xl">Club History</h1>
-                <p className="mx-8 text-2xl indent-16">
-                    Matthew will let others deal with the club history since Matthew don&apos;t know much about the history of the club.
-                </p>
-            </article>
+			{historyData.map((content, index) => {
+				return (
+					<div key={content.key}>
+						<article className="m-16">
+							<h1 className="m-8 text-center font-bold text-4xl">
+								{content.category}
+							</h1>
+							<p className="m-8 text-2xl text-center font-semibold">
+								{content.content}
+							</p>
+						</article>
+					</div>
+				)
+			})}
 		</main>
 	</div>
   )
