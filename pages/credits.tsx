@@ -15,8 +15,8 @@ const Credits: NextPage = () => {
 			<NavBar/>
 		</header>
 		<main className="inline">
-			<div className="flex bg-red-800 mx-0 mb-4 w-screen items-center justify-center border-b-black shadow-xl h-32">
-				<h1 className="flex text-6xl font-bold text-center mt-4 text-yellow-500">
+			<div className="flex bg-red-800 mx-0 mb-4 items-center justify-center border-b-black shadow-xl h-32">
+				<h1 className="flex 2xl:text-6xl font-bold text-center mt-4 text-yellow-500 xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl">
 					Credits
 				</h1>
 			</div>

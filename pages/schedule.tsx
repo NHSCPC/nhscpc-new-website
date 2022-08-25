@@ -15,19 +15,19 @@ const Schedule: NextPage = () => {
 				<NavBar/>
 			</header>
 			<main className="inline">
-				<div className="flex bg-red-800 mx-0 mb-4 w-screen items-center justify-center border-b-black shadow-xl h-32">
-					<h1 className="flex text-6xl font-bold text-center mt-4 text-yellow-500">
+				<div className="flex bg-red-800 mx-0 mb-4 items-center justify-center border-b-black shadow-xl h-32">
+					<h1 className="flex 2xl:text-6xl font-bold text-center mt-4 text-yellow-500 xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl">
 						Schedule
 					</h1>
 				</div>
 				{ScheduleData.map((content, index) => {
 					return (
 						<div key={content.key}>
-							<article>
-								<h1 className="text-center font-bold text-4xl">
+							<article className="2xl:m-16 xl:m-12 lg:m-8 md:m-6 sm:m-5">
+								<h1 className="m-4 text-center font-bold 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-xl">
 									{content.month} {content.day}<sup>{content.ss}</sup>, {content.year}
 								</h1>
-								<p className="text-center font-semibold text-2xl">
+								<p className="m-4 2xl:text-2xl text-center whitespace-pre-line space-y-3 xl:text-2xl lg:text-xl lg:text-xl md:text-lg sm:text-base font-semibold">
 									{content.summary}
 								</p>
 							</article>
