@@ -20,9 +20,15 @@ const Leadership = [
 	{
 		title: "Chief Technical Officer",
 		name: "Matthew Chai",
-		description: "Matthew is a senior at Newport High School. He is the CTO of Programming Club, my overall goal of being CTO is to introduce AAA game development to all as well as helping programmers starting on C/C++ and other languages that provides low level control over hardware.",
+		description: "Matthew is a senior at Newport High School. He is the CTO of Programming Club, his overall goal of being CTO is to introduce AAA game development to all as well as helping programmers starting on C/C++ and other languages that provides low level control over hardware. He is the one who created this website. Outside programming, he enjoys drawing and animating.",
 		key: "L4"
-	}
+	},
+	{
+		title: "Secretary",
+		name: "Vishwa Senthil",
+		description: "Vishwa is a junior and secretary of the Newport Programming Club. He's been coding in python and java for 3 years and is currently learning app development. Outside programming, he enjoys playing tennis, hanging out with friends, and playing video games.",
+		key: "L5"
+	},
 ]
 
 export default Leadership

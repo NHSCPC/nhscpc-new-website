@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import NavBar from '../components/NavBar'
 import Leadership from "../src/Leadership";
+import ConditionalWrapper from "../components/ConditionalWrapper";
 
 const History: NextPage = () => {
     return (
@@ -24,14 +25,17 @@ const History: NextPage = () => {
 	            {Leadership.map((content, index) => {
 		            return (
 			            <div key={content.key} className="m-8">
-							<article className="m-16">
-								<h1 className="m-4 text-center font-semibold text-3xl">
-									<strong>{content.title}</strong> {content.name}
-								</h1>
-								<p className="m-4 text-2xl text-center">
-									{content.description}
-								</p>
-							</article>
+
+					            <article className="m-16">
+						            <ConditionalWrapper condition={index == 3}>
+							            <h1 className="m-4 text-center font-semibold text-3xl">
+								            <strong>{content.title}</strong> {content.name}
+							            </h1>
+							            <p className="m-4 text-2xl text-center">
+								            {content.description}
+							            </p>
+						            </ConditionalWrapper>
+					            </article>
 			            </div>
 		            )
 
