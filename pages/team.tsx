@@ -24,11 +24,11 @@ const History: NextPage = () => {
 	            {Leadership.map((content, index) => {
 		            return (
 			            <div key={content.key} className="m-8">
-							<article>
-								<h1 className="mx-8 text-center font-semibold text-3xl">
+							<article className="m-16">
+								<h1 className="m-4 text-center font-semibold text-3xl">
 									<strong>{content.title}</strong> {content.name}
 								</h1>
-								<p className="mx-8 text-2xl text-center">
+								<p className="m-4 text-2xl text-center">
 									{content.description}
 								</p>
 							</article>
