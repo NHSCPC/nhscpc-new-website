@@ -16,6 +16,14 @@ const ScheduleData =
 		summary: "We did a simple introduction and we played Scratch Golf.",
 		key: "S2",
 	},
+	{
+		month: "September",
+		day: "22",
+		ss: "nd",
+		year: "2022",
+		summary: "Search algorithms, including binary searches which required a sorted array and a linear search which is just a very simple search algorithm.",
+		key: "S3",
+	},
 ]
 
 export default ScheduleData
