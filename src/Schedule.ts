@@ -24,6 +24,14 @@ const ScheduleData =
 		summary: "Search algorithms, including binary searches which required a sorted array and a linear search which is just a very simple search algorithm.",
 		key: "S3",
 	},
+	{
+		month: "September",
+		day: "29",
+		ss: "th",
+		year: "2022",
+		summary: "Introduction to competitive programming, partnership with Competitive Programming Initiative and introduction to usaco.guide website.",
+		key: "S4",
+	},
 ]
 
 export default ScheduleData
