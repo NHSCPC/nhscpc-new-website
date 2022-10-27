@@ -32,6 +32,30 @@ const ScheduleData =
 		summary: "Introduction to competitive programming, partnership with Competitive Programming Initiative and introduction to usaco.guide website.",
 		key: "S4",
 	},
+	{
+		month: "October",
+		day: "6",
+		ss: "th",
+		year: "2022",
+		summary: "Basic USACO Problems and Brute-Force methods.",
+		key: "S5",
+	},
+	{
+		month: "October",
+		day: "13,
+		ss: "th",
+		year: "2022",
+		summary: "Hash tables and 2-D Arrays.",
+		key: "S6",
+	},
+	{
+		month: "October",
+		day: "20
+		ss: "th",
+		year: "2022",
+		summary: "Mock competition in teams, basically similar to TeamsCode.",
+		key: "S7",
+	},
 ]
 
 export default ScheduleData
