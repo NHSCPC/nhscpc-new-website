@@ -42,7 +42,7 @@ const ScheduleData =
 	},
 	{
 		month: "October",
-		day: "13,
+		day: "13",
 		ss: "th",
 		year: "2022",
 		summary: "Hash tables and 2-D Arrays.",
@@ -50,11 +50,43 @@ const ScheduleData =
 	},
 	{
 		month: "October",
-		day: "20
+		day: "20",
 		ss: "th",
 		year: "2022",
 		summary: "Mock competition in teams, basically similar to TeamsCode.",
 		key: "S7",
+	},
+	{
+		month: "October",
+		day: "27",
+		ss: "th",
+		year: "2022",
+		summary: "More USACO Practice.",
+		key: "S8",
+	},
+	{
+		month: "November",
+		day: "3",
+		ss: "rd",
+		year: "2022",
+		summary: "Introduction to greedy algorithm.",
+		key: "S9",
+	},
+	{
+		month: "November",
+		day: "10",
+		ss: "th",
+		year: "2022",
+		summary: "Practicing Greedy.",
+		key: "S10",
+	},
+	{
+		month: "November",
+		day: "17",
+		ss: "th",
+		year: "2022",
+		summary: "Introduction to Graph Theory.",
+		key: "S11",
 	},
 ]
 
